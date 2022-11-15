@@ -1,0 +1,209 @@
+/* Website template by freewebsitetemplates.com */
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: auto;
+}
+body #page {
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: auto;
+}
+a {
+  text-decoration: none;
+  outline: none;
+}
+a:active {
+  background: none;
+}
+img {
+  border: none;
+}
+/*----------------------------------------header-styles---------------------------------------*/
+#header {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+#header div {
+  margin: 0 auto;
+  max-width: 940px;
+  min-height: 227px;
+  padding: 0 10px;
+}
+#header div a.logo {
+  display: block;
+  float: left;
+  height: 106px;
+  margin: 44px 0 0;
+  padding: 0;
+  width: 320px;
+}
+#header div a.logo img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+#header div ul {
+  display: block;
+  float: right;
+  font-size: 40px;
+  list-style: none outside none;
+  margin: 0 auto;
+  max-width: 501px;
+  padding: 102px 0 20px;
+  text-align: center;
+}
+#header div ul li {
+  display: inline-block;
+  *float: left; /* Needed for IE7 and old versions */
+  margin: 0 0 0 37px;
+  padding: 0;
+  width: auto;
+}
+#header div ul li a {
+  color: #000000;
+  font-family: "Arial Black";
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 14px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: auto;
+}
+/*----------------------------------------body-styles---------------------------------------*/
+#body div {
+  background: rgb(255, 237, 249) repeat;
+  margin: 0 auto;
+  max-width: 960px;
+  overflow: hidden;
+}
+#body.running div {
+  padding: 58px 0 161px;
+}
+#body div h1 {
+  background: url(image/bg-border2.gif) no-repeat center bottom;
+  color: #fc41a2;
+  font-family: "Arial Black";
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 40px;
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#body div p span a {
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 48px;
+}
+#body div p a {
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+}
+#body div p a:hover {
+  color: #fc416f;
+}
+#body div h2 {
+  color: #ffffff;
+  font-family: arial;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 20px;
+  margin: 0 0 15px;
+  padding: 0;
+  text-align: center;
+  text-transform: none;
+}
+#body div ul.gallery {
+  display: inline-block;
+  list-style: none outside none;
+  margin: 0 0 76px;
+  max-width: none;
+  padding: 72px 0 0;
+  width: 100%;
+}
+#body div ul.gallery li {
+  border: none;
+  float: left;
+  margin: 0 10px;
+  padding: 0;
+  width: 300px;
+}
+#body div ul.gallery li a {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+#body div ul.gallery li a img {
+  display: block;
+  float: none;
+  margin: 0 auto;
+  padding: 0;
+  width: auto;
+}
+#body div h3 {
+  background: url(image/bg-border1.gif) no-repeat center top;
+  color: #000000;
+  display: block;
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  line-height: 48px;
+  margin: 0 auto 15px;
+  padding: 18px 0 0;
+  text-align: center;
+  width: 611px;
+}
+#body div h3 span {
+  background: url(image/bg-border1.gif) no-repeat center bottom;
+  display: block;
+  margin: 0;
+  padding: 0 0 11px;
+  width: auto;
+}
+
+/*----------------------------------------footer-styles---------------------------------------*/
+#footer {
+  background-color: #ffffff;
+  margin: 0;
+  min-height: 50px;
+  padding: 0;
+  width: 100%;
+}
+#footer div {
+  margin: 0 auto;
+  max-width: 1000px;
+  overflow: hidden;
+  padding: 47px 10px 42px;
+}
+#footer div p {
+  color: #000000;
+  float: right;
+  font-family: Arial;
+  font-size: 15px;
+
+  line-height: 10px;
+  margin: 0;
+  padding: 5px 0 0;
+  text-align: right;
+}
